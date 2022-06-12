@@ -2,9 +2,8 @@ version: 0.1
 
 phases: 
   install: 
-    commands: 
-      - curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
-      - apt-get install -y nodejs
+   runtime-versions:
+      nodejs: 16
   pre_build:
     commands:
       - yarn install
