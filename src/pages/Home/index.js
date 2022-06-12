@@ -7,14 +7,14 @@ import {
  Content
 } from "./styles"
 
-const FrontPage = (props) => {
+const Home = (props) => {
   return (
       <PageContainer>
           <Header></Header>
-          <Content>Hello World! My name is Mark Simon and I am not married.!!!</Content>
+          <Content>Hello World! My name is Mark Simon!</Content>
           <Footer></Footer>
     </PageContainer>
   )
 }
 
-export default FrontPage
+export default Home;

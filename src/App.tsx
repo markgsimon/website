@@ -7,13 +7,13 @@ import {
   Route
 } from "react-router-dom";
 
-import FrontPage from './pages/FrontPage';
+import Home from './pages/Home';
 
 function App() {
   return (
   <BrowserRouter>
   <Routes>
-    <Route path = "/" element = {<FrontPage></FrontPage>}/>
+    <Route path = "/" element = {<Home></Home>}/>
   </Routes>
   </BrowserRouter>
   );
