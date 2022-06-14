@@ -1,13 +1,32 @@
 import React from 'react'
 
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-const handleNavigation = (url) => {
-    history.push(`${url}`);
-}
+import {
+  NavbarContainer,
+  Label,
+  LabelRow
+} from "./styles";
+
+
+
 const Navbar = (props) => {
+  const navigate = useNavigate();
+  
+  const handleNavigation = (url) => {
+      navigate(`/${url}`);
+  }
+  
   return (
-    <div>Navbar</div>
+    <NavbarContainer>
+      Here is the navbar
+      <LabelRow>
+        <Label onClick = {() => handleNavigation("design")}>Design</Label>
+        <Label  onClick = {() => handleNavigation("math")}>Math</Label>
+        <Label onClick = {() => handleNavigation("")}>Home</Label>
+      </LabelRow>
+    </NavbarContainer>
+
   )
 }
 
