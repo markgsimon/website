@@ -20,11 +20,16 @@ import {
 } from "./styles"
 
 const Contact = (props) => {
-  const linkedInIcon = require("../../../public/images/components/contact/linkedin.png");
-
+  const linkedInIcon = require("../../images/components/contact/linkedIn.png");
+  const githubIcon = require("../../images/components/contact/github.png")
   return (
    <ContactBox>
-    <ContactIcon alt = "linkedIn" src = {linkedInIcon}/>
+    <a href = "https://www.linkedin.com/in/mark-simon-a57aa352">
+      <ContactIcon alt = "linkedIn" src = {linkedInIcon}/>
+    </a>
+    <a href="https://github.com/markgsimon">
+      <ContactIcon alt = "github" src = {githubIcon}/>
+    </a>
    </ContactBox>
   )
 }
