@@ -20,6 +20,10 @@ export const Footer = styled.div`
 
     border: 1px solid blue;
     height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const Content = styled.div` 
