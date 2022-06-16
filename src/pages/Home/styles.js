@@ -11,11 +11,11 @@ export const HomeContent = styled.div`
 export const HomepageTitle = styled.div` 
     font-family: fantasy;
     color: white;
-    font-size: 20px;
+    font-size: 3em;
 `;
 
 export const HomePageDescription = styled.div` 
     font-family: fantasy;
     color: white;
-    font-size: 15px;
+    font-size: 1em;
 `;

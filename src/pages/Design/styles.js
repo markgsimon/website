@@ -10,6 +10,7 @@ export const DesignContent = styled.div`
 
 export const Title = styled.div` 
     font-family: monospace;
+    font-size: 4em;
     color: white;
 
 `;
@@ -17,5 +18,6 @@ export const Title = styled.div`
 export const Text = styled.div` 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    font-size: 1em;
 
 `;
