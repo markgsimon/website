@@ -26,7 +26,6 @@ const Home = (props) => {
       This is the home page. 
       <HomeContent>Hello World! My name is Mark Simon!
 
-       Your browser info: {navigator.userAgent}
       </HomeContent>
     </PageWrapper>
   )

@@ -27,6 +27,13 @@ export const Footer = styled.div`
     align-items: center;
 `;
 
+export const FooterText = styled.div` 
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: normal;
+    text-align: center;
+`;
+
+
 export const Content = styled.div` 
 
     display: flex;

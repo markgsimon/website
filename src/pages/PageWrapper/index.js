@@ -4,7 +4,8 @@ import {
     PageContainer,
     Header,
     Footer,
-    Content
+    Content,
+    FooterText
    } from "./styles";
 
 import Contact from '../../components/Contact'
@@ -15,7 +16,10 @@ const PageWrapper = ({children, ...props}) => {
     <PageContainer>
         <Header> <Navbar></Navbar></Header>
         <Content>{children}</Content>
-        <Footer> Look down here for contacts. For now I can be reached at mark.simon0917@gmail.com
+        <Footer>
+          <FooterText>
+              Look down here for contacts. For now I can be reached at mark.simon0917@gmail.com
+          </FooterText>
             <Contact></Contact>
         </Footer>
     </PageContainer>
