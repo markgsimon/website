@@ -14,7 +14,6 @@ export const Header = styled.div`
 
     border: 1px solid green;
     height: 10vh;
-    background-color: black;
 `;
 
 

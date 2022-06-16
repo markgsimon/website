@@ -14,7 +14,7 @@ import Navbar from '../../components/Navbar';
 const PageWrapper = ({children, ...props}) => {
   return (
     <PageContainer>
-        <Header> <Navbar></Navbar></Header>
+         <Navbar></Navbar>
         <Content>{children}</Content>
         <Footer>
           <FooterText>
