@@ -14,6 +14,7 @@ export const Header = styled.div`
 
     border: 1px solid green;
     height: 10vh;
+    background-color: black;
 `;
 
 
@@ -25,6 +26,7 @@ export const Footer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 `;
 
 export const FooterText = styled.div` 
@@ -42,4 +44,5 @@ export const Content = styled.div`
     justify-content: center;
     border: 1px solid black;
     height: 80vh;
+    background-color: black;
 `;

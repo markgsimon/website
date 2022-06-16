@@ -4,7 +4,9 @@ import React from 'react'
 
 
 import {
-  HomeContent
+  HomeContent,
+  HomepageTitle,
+  HomePageDescription
  } from "./styles"
 //Components
 
@@ -23,9 +25,11 @@ import PageWrapper from '../PageWrapper';
 const Home = (props) => {
   return (
     <PageWrapper>
-      This is the home page. 
-      <HomeContent>Hello World! My name is Mark Simon!
-
+      <HomeContent>
+        <HomepageTitle>This is the home page. </HomepageTitle>
+        <HomePageDescription>
+          Hello World! My name is Mark Simon!
+        </HomePageDescription>
       </HomeContent>
     </PageWrapper>
   )

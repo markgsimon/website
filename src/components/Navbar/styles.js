@@ -8,6 +8,7 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     align-items: center;
     border: 1px solid blue;
+    background-color: grey;
 `;
 
 export const LabelRow = styled.div` 
@@ -24,6 +25,7 @@ export const Label = styled.div`
     
     &:hover {
         background-color: rgba(0,0,0,.5);
+        cursor: pointer;
     }
 `;
 

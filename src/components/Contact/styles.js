@@ -17,4 +17,8 @@ export const ContactIcon = styled.img`
     height: 30px;
     object-fit: contain;
     margin: 10px;
+    &:hover {
+        background-color: grey;
+        border-radius: 16px;
+    }
 `;
