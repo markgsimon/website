@@ -20,7 +20,7 @@ export const LabelRow = styled.div`
     flex-direction: row;
     justify-content: space-between;
     /* border: 1px solid green; */
-    width: 20%;
+    width: 30%;
     height: 100%;
     @media screen and (max-width: 768px){
             flex-direction: column;
