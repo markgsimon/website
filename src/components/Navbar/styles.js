@@ -10,6 +10,9 @@ export const NavbarContainer = styled.div`
     /* border: 1px solid blue; */
     background-color: grey;
     height: 10vh;
+    @media screen and (max-width: 768px){
+            height: 20vh;
+    }
 `;
 
 export const LabelRow = styled.div` 
@@ -19,6 +22,9 @@ export const LabelRow = styled.div`
     /* border: 1px solid green; */
     width: 20%;
     height: 100%;
+    @media screen and (max-width: 768px){
+            flex-direction: column;
+    }
 `;
 
 

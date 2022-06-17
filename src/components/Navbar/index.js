@@ -26,6 +26,7 @@ const Navbar = (props) => {
       <LabelRow>
         <Label onClick = {() => handleNavigation("design")}>Design</Label>
         <Label  onClick = {() => handleNavigation("math")}>Math</Label>
+        <Label onClick = {() => handleNavigation("mutterings")}>Mutterings</Label>
         <Label onClick = {() => handleNavigation("")}>Home</Label>
       </LabelRow>
     </NavbarContainer>

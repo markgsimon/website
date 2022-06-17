@@ -10,6 +10,7 @@ import {
 import Home from './pages/Home';
 import Design from './pages/Design';
 import Math from './pages/Math';
+import Mutterings from './pages/Mutterings';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Route path = "/" element = {<Home></Home>}/>
     <Route path = "/Design" element = {<Design></Design>}/>
     <Route path = "/Math" element = {<Math></Math>}/>
+    <Route path = "/Mutterings" element = {<Mutterings></Mutterings>}/>
   </Routes>
   </BrowserRouter>
   );
