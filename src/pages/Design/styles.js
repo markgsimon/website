@@ -5,12 +5,12 @@ export const DesignContent = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 50%;
 `;
 
 export const Title = styled.div` 
     font-family: monospace;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
 
 `;
@@ -18,6 +18,7 @@ export const Title = styled.div`
 export const Text = styled.div` 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 1em;
+    font-size: 2em;
+    text-align: center;
 
 `;
