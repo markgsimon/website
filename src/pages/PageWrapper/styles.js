@@ -32,6 +32,7 @@ export const FooterText = styled.div`
     font-family: 'Courier New', Courier, monospace;
     word-wrap: normal;
     text-align: center;
+    color: white;
 `;
 
 

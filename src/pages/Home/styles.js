@@ -5,17 +5,19 @@ export const HomeContent = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 80%;
 `;
 
 
 export const HomepageTitle = styled.div` 
     font-family: fantasy;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 `;
 
 export const HomePageDescription = styled.div` 
-    font-family: fantasy;
+    font-family: cursive;
     color: white;
-    font-size: 1em;
+    font-size: 2em;
+    width: 50%;
 `;

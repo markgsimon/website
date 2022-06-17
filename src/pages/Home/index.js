@@ -26,9 +26,11 @@ const Home = (props) => {
   return (
     <PageWrapper>
       <HomeContent>
-        <HomepageTitle>This is the home page. </HomepageTitle>
-        <HomePageDescription>
-          Hello World! My name is Mark Simon!
+        <HomepageTitle>Hello World! My name is Mark Simon!</HomepageTitle>
+        <HomePageDescription style = {{textAlign: "center", marginTop: "5%"}} > A little about me:  </HomePageDescription>
+        <HomePageDescription style = {{textAlign: "center"}}>
+          <br/>
+          I am a software engineer, but my passions are myriad and stem from a desire to explore and learn about the world around me. 
         </HomePageDescription>
       </HomeContent>
     </PageWrapper>
