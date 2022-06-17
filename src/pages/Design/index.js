@@ -14,7 +14,10 @@ const Design = (props) => {
     <PageWrapper>
       <DesignContent>
         <Title>Design page.</Title>
-        <Text> Check back here for information on new designs or enginering projects I am currently working on. </Text>
+        <Text> My first project is this website. 
+          I hope someday to find like minded people around the globe to shre in my passions. 
+          That is why I am proud to announce my first design project on this page. A blog. 
+        </Text>
       </DesignContent>
     </PageWrapper>
   )
