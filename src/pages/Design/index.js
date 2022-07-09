@@ -18,7 +18,7 @@ const Design = (props) => {
           I hope someday to find like minded people around the globe to shre in my passions. 
           That is why I am proud to announce my first design project on this page. A blog. 
 
-          Newsflash: I began work helping a local photographer and good friend of mine, Matt Chafe. Check out his new <a href = "mattchafe.com">site</a>.
+          Newsflash: I began work helping a local photographer and good friend of mine, Matt Chafe. Check out his new <a href = "http://www.mattchafe.com">site</a>.
         </Text>
       </DesignContent>
     </PageWrapper>
