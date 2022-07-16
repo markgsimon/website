@@ -29,7 +29,7 @@ export const LabelRow = styled.div`
 
 
 export const Label = styled.div` 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
     border-radius: 10px;
     font-size: 2em;
     align-self: center;
@@ -42,7 +42,7 @@ export const Label = styled.div`
 
 export const Title = styled.div` 
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Ubuntu;
     font-size: 2em;
     color: #FFFFFF;
 

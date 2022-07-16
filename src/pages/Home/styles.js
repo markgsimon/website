@@ -6,18 +6,24 @@ export const HomeContent = styled.div`
     align-items: center;
     justify-content: center;
     width: 80%;
+    height: 100%;
+    @media screen and (max-width: 768px){
+    }
 `;
 
 
 export const HomepageTitle = styled.div` 
-    font-family: fantasy;
+    font-family: sans-serif;
     color: white;
     font-size: 2em;
 `;
 
 export const HomePageDescription = styled.div` 
-    font-family: cursive;
+    font-family: sans-serif;
     color: white;
     font-size: 2em;
     width: 50%;
+    @media screen and (max-width: 768px){
+        font-size: 1em;
+    }
 `;
