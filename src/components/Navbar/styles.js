@@ -8,13 +8,9 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: white;
-  
-    /* border: 1px solid blue; */
-    height: 10vh;
-    @media screen and (max-width: 768px){
-            height: 15vh;
+    height: 100%;
 
-    }
+  
 `;
 
 export const LabelRow = styled.div` 
@@ -25,8 +21,7 @@ export const LabelRow = styled.div`
     width: 30%;
     height: 100%;
     @media screen and (max-width: 768px){
-            flex-direction: column;
-    }
+/    }
 `;
 
 

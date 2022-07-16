@@ -45,4 +45,5 @@ export const Content = styled.div`
     /* border: 1px solid black; */
     height: 80vh;
     background-color: white;
+ 
 `;

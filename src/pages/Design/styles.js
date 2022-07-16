@@ -4,19 +4,22 @@ export const DesignContent = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 80%;
+    align-items: flex-start;
+    /* height: 100%; */
+    width: 90%;
+    /* overflow-y: auto; */
+    overflow: scroll;
 `;
 
 export const Title = styled.div` 
     font-family: sans-serif;
     font-size: 2em;
     color: black;
-    text-align: center;
+   align-self: center;
+   /* margin-bottom: 5%; */
     @media screen and (max-width: 768px){
         font-size: 1.5em;
-        margin-bottom: 5%;
-    }
+/    }
 
 `;
 
@@ -25,7 +28,7 @@ export const Text = styled.div`
     color: black;
     font-size: 2em;
     /* text-align: center; */
-    @media screen and (max-width: 768px){
+   @media screen and (max-width: 768px){
         font-size: 1em;
     }
 
