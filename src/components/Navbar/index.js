@@ -20,9 +20,7 @@ const Navbar = (props) => {
   
   return (
     <NavbarContainer>
-      {/* <Title>
-        Here is the navbar
-      </Title> */}
+      
       <LabelRow>
         <Label onClick = {() => handleNavigation("design")}>Design</Label>
         <Label  onClick = {() => handleNavigation("math")}>Math</Label>

@@ -7,19 +7,21 @@ export const NavbarContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+  
     /* border: 1px solid blue; */
-    background-color: grey;
     height: 10vh;
     @media screen and (max-width: 768px){
-            height: 20vh;
+            height: 15vh;
+
     }
 `;
 
 export const LabelRow = styled.div` 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /* border: 1px solid green; */
+    justify-content: center;
+    /* justify-content: space-between; */
     width: 30%;
     height: 100%;
     @media screen and (max-width: 768px){
@@ -29,21 +31,20 @@ export const LabelRow = styled.div`
 
 
 export const Label = styled.div` 
-    font-family: 'Gill Sans';
+    font-family: sans-serif;
     border-radius: 10px;
     font-size: 2em;
     align-self: center;
+    padding: 5px;
+    margin: 3px;
+    @media screen and (max-width: 768px){
+          font-size: 1.5em;
+    }
     &:hover {
-        /* border: 1px solid whitesmoke; */
         background-color: rgba(0,0,0,.5);
+        border-radius: 12px;
         cursor: pointer;
     }
 `;
 
-export const Title = styled.div` 
 
-    font-family: Ubuntu;
-    font-size: 2em;
-    color: #FFFFFF;
-
-`;
