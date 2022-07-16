@@ -5,15 +5,16 @@ export const DesignContent = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
 `;
 
 export const Title = styled.div` 
     font-family: sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     color: black;
+    text-align: center;
     @media screen and (max-width: 768px){
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 5%;
     }
 
@@ -23,7 +24,7 @@ export const Text = styled.div`
     font-family:  sans-serif;
     color: black;
     font-size: 2em;
-    text-align: center;
+    /* text-align: center; */
     @media screen and (max-width: 768px){
         font-size: 1em;
     }

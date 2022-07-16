@@ -14,15 +14,15 @@ export const HomeContent = styled.div`
 
 export const HomepageTitle = styled.div` 
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-size: 2em;
 `;
 
 export const HomePageDescription = styled.div` 
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-size: 2em;
-    width: 50%;
+    width: 80%;
     @media screen and (max-width: 768px){
         font-size: 1em;
     }
