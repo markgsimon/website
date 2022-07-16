@@ -17,23 +17,26 @@ export const LabelRow = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* justify-content: space-between; */
     width: 30%;
     height: 100%;
     @media screen and (max-width: 768px){
-/    }
+
+   }
 `;
 
 
 export const Label = styled.div` 
     font-family: sans-serif;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     align-self: center;
     padding: 5px;
     margin: 3px;
     @media screen and (max-width: 768px){
-          font-size: 1.5em;
+          font-size: 1em;
+    }
+    @media screen and (min-width: 1280px){
+          font-size: 2.5em;
     }
     &:hover {
         background-color: rgba(0,0,0,.5);

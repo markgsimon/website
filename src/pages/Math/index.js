@@ -4,7 +4,6 @@ import {
   MathText,
   MathTitle,
   Content,
-  LineBreak
 } from "./styles"
 
 import PageWrapper from '../PageWrapper';
@@ -13,10 +12,15 @@ const Math = (props) => {
   return (
     <PageWrapper>
       <Content>
-        <MathTitle>Math Page</MathTitle>
-        <MathText>Here is where I will begin my discussion into mathematics:<br/> <br/> 
-         1. Firstly, discrete mathematics.
-             <br/><br/> I. What is the definition of discrete?
+        <MathTitle>Interesting topics in mathematics:</MathTitle>
+        <MathText>
+          <ol>
+            <li>Firstly, discrete mathematics <br/><br/> 
+              <ul>
+                <li>What is the definition of discrete?</li>
+              </ul> 
+            </li>
+          </ol>
         </MathText>
       </Content>
     </PageWrapper>

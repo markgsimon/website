@@ -6,7 +6,8 @@ import React from 'react'
 import {
   HomeContent,
   HomepageTitle,
-  HomePageDescription
+  HomePageDescription,
+  ProfilePic
  } from "./styles"
 //Components
 
@@ -27,6 +28,7 @@ const Home = (props) => {
     <PageWrapper>
       <HomeContent>
         <HomepageTitle>Mark Simon </HomepageTitle>
+        <ProfilePic src = "profile.jpg" alt = "Picture of Mark Simon biking"/>
         <HomePageDescription >
           <br/>
           Passionate about new technologies: Open Source, Mathematics, Web Development, Embedded Systems, and Biology
