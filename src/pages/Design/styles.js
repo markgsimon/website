@@ -11,7 +11,7 @@ export const DesignContent = styled.div`
 export const Title = styled.div` 
     font-family: sans-serif;
     font-size: 3em;
-    color: white;
+    color: black;
     @media screen and (max-width: 768px){
         font-size: 2em;
         margin-bottom: 5%;
@@ -21,7 +21,7 @@ export const Title = styled.div`
 
 export const Text = styled.div` 
     font-family:  sans-serif;
-    color: white;
+    color: black;
     font-size: 2em;
     text-align: center;
     @media screen and (max-width: 768px){

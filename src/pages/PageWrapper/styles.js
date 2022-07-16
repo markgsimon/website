@@ -12,27 +12,27 @@ export const PageContainer = styled.div`
 
 export const Header = styled.div` 
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 10vh;
 `;
 
 
 export const Footer = styled.div` 
 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: white;
 `;
 
 export const FooterText = styled.div` 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     word-wrap: normal;
     text-align: center;
-    color: white;
+    color: black;
 `;
 
 
@@ -42,7 +42,7 @@ export const Content = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 80vh;
-    background-color: black;
+    background-color: white;
 `;
