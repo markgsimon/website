@@ -12,7 +12,6 @@ export const PageContainer = styled.div`
 
 export const Header = styled.div` 
 
-    /* border: 1px solid green; */
     height: 10vh;
 `;
 
@@ -45,5 +44,4 @@ export const Content = styled.div`
     /* border: 1px solid black; */
     height: 80vh;
     background-color: white;
- 
 `;

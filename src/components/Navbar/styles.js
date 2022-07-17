@@ -8,9 +8,9 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 100%;
+    /* height: 100%; */
 
-  
+    /* border: 1px solid blue;; */
 `;
 
 export const LabelRow = styled.div` 

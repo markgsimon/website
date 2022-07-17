@@ -32,7 +32,7 @@ const Home = (props) => {
         <HomePageDescription >
           <br/>
           Passionate about new technologies: Open Source, Mathematics, Web Development, Embedded Systems, and Biology
-          <br/><br/>I am a software engineer, but my passions are myriad and stem from a desire to explore and learn about the world around me. 
+          <br/><br/>I am a software engineer, but my interests are myriad and stem from a desire to explore and learn about the world around me. 
         </HomePageDescription>
       </HomeContent>
     </PageWrapper>
