@@ -30,9 +30,8 @@ const Home = (props) => {
         <HomepageTitle>Mark Simon </HomepageTitle>
         <ProfilePic src = "profile.jpg" alt = "Picture of Mark Simon biking"/>
         <HomePageDescription >
-          <br/>
-          Passionate about new technologies: Open Source, Mathematics, Web Development, Embedded Systems, and Biology
-          <br/><br/>I am a software engineer, but my interests are myriad and stem from a desire to explore and learn about the world around me. 
+        Ships that pass in the night, and speak each other in passing, only a signal shown, and a distant voice in the darkness; 
+        So on the ocean of life, we pass and speak one another, only a look and a voice, then darkness again and a silence.        
         </HomePageDescription>
       </HomeContent>
     </PageWrapper>
