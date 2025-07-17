@@ -15,9 +15,11 @@ const Math = (props) => {
         <MathTitle>Interesting topics in mathematics:</MathTitle>
         <MathText>
           <ol>
-            <li>Firstly, discrete mathematics <br/><br/> 
+            <li>Firstly, linear algebra and algorithsm <br/><br/> 
               <ul>
-                <li>What is the definition of discrete?</li>
+                <li>Why study algorithms?</li>
+                  Well firstly, the study of algorithms adds a rigour to the code review process for software engineering.
+                <li>Why linear algebra?</li>
               </ul> 
             </li>
           </ol>
