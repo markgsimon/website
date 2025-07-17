@@ -20,6 +20,7 @@ const Math = (props) => {
                 <li>Why study algorithms?</li>
                   Well firstly, the study of algorithms adds a rigour to the code review process for software engineering.
                 <li>Why linear algebra?</li>
+                Because linear algebra allows us to organize systems of linear problems.
               </ul> 
             </li>
           </ol>
