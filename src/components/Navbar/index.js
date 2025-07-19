@@ -1,12 +1,10 @@
 import React from 'react'
-
 import { useNavigate } from 'react-router-dom';
 
 import {
   NavbarContainer,
   Label,
   LabelRow,
-  Title
 } from "./styles";
 
 
@@ -18,14 +16,17 @@ const Navbar = (props) => {
       navigate(`/${url}`);
   }
   
+  console.log(window.href);
   return (
     <NavbarContainer>
       
       <LabelRow>
-        <Label onClick = {() => handleNavigation("design")}>Design</Label>
-        <Label  onClick = {() => handleNavigation("math")}>Math</Label>
-        {/* <Label onClick = {() => handleNavigation("mutterings")}>Mutterings</Label> */}
-        <Label onClick = {() => handleNavigation("")}>Home</Label>
+        {window.location.href.includes('math') && 
+          <Label onClick = {() => handleNavigation("")}>Home</Label> 
+        }
+        {!window.location.href.includes('math') && 
+         <Label  onClick = {() => handleNavigation("math")}>Math</Label>
+        }
       </LabelRow>
     </NavbarContainer>
 

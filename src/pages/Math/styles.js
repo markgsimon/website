@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MathText = styled.div` 
     font-family: sans-serif;
-    color: black;
+    color: green;
     font-size: 14px;
     margin-bottom: 1%;
     text-align: center;
@@ -16,7 +16,7 @@ export const MathText = styled.div`
 export const MathTitle = styled.div` 
 
     font-family: sans-serif;
-    color: black;
+    color: green;
     font-size: 24px;
     margin-bottom: 5%;
     @media screen and (max-width: 768px){

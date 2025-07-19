@@ -7,7 +7,8 @@ export const NavbarContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
+    padding-top: 20px;
     /* height: 100%; */
 
     /* border: 1px solid blue;; */
@@ -28,6 +29,7 @@ export const LabelRow = styled.div`
 export const Label = styled.div` 
     font-family: sans-serif;
     border-radius: 10px;
+    color: green;
     font-size: 1.5em;
     align-self: center;
     padding: 5px;

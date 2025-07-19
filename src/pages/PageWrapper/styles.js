@@ -7,6 +7,8 @@ export const PageContainer = styled.div`
     height: 100vh;
     width: 100%;
     /* padding: 2%; */
+    background-color: black;
+    gap: 10%;
 `;
 
 
@@ -24,14 +26,15 @@ export const Footer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
+    // border: 1px solid red;
 `;
 
 export const FooterText = styled.div` 
     font-family: sans-serif;
     word-wrap: normal;
     text-align: center;
-    color: black;
+    color: green;
 `;
 
 
@@ -42,6 +45,6 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     /* border: 1px solid black; */
-    height: 80vh;
-    background-color: white;
+    // height: 80vh;
+    background-color: black;
 `;
