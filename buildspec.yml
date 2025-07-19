@@ -3,8 +3,8 @@ version: 0.2
 phases: 
   install: 
     commands:
-      - apt-get update
-      - apt-get install -y nodejs
+      - apt update
+      - apt install -y nodejs
       - n 16.14.2
       - node --version
       - apt install yarn
