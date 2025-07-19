@@ -8,7 +8,7 @@ import {
 
 import Home from './pages/Home';
 import Math from './pages/Math';
-//test
+
 function App() {
   return (
   <BrowserRouter>
